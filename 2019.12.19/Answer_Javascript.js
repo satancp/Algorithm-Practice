@@ -1,25 +1,23 @@
 class StockSpanner {
     constructor() {
         this.data = [];
-        this.previousValue = 0;
     }
 
     getCount(current) {
-        let max = 1;
-        let index = this.data.length - 1;
-        let flag = true;
-        if (index >= 0) {
-            while (flag) {
+        if (this.data.length - 1 >= 0) {
+            let max = 1;
+            let index = this.data.length - 1;
+            while (true) {
                 if (index >= 0 && current >= this.data[index].price) {
                     max += this.data[index].count;
                     index -= this.data[index].count;
                 } else {
-                    flag = true;
                     break;
                 }
             }
+            return max;
         }
-        return max;
+        return 1;
     }
 
     next(price) {
