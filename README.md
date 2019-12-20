@@ -1,3 +1,7 @@
 # Algorithm-Practice
 
-Everyday I will finish an algorithm problem from Dec 19th 2019.
+## Everyday I will finish an algorithm problem from Dec 19th 2019.
+
+### 2019.12.19 Done
+
+### 2019.12.20 Done
