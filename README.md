@@ -2,6 +2,8 @@
 
 ## Everyday I will finish an algorithm problem from Dec 19th 2019.
 
-### 2019.12.19 Done
+### Lasted 2 days
 
-### 2019.12.20 Done
+#### 2019.12.19 Done
+
+#### 2019.12.20 Done
